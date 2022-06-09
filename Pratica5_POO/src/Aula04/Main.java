@@ -7,8 +7,8 @@ public class Main {
 		
 		Pessoa p1 = new Pessoa();
 		p1.setNome("Breno"); 
-		p1.setAltura(1.8f);   
-		p1.setIdade(26);
+		p1.setAltura(1.79f);   
+		p1.setIdade(19);
 		
 		Pessoa[] VetPessoa = new Pessoa[10];
 		
