@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Pessoa p1 = new Pessoa();
-		p1.setNome("Lázaro"); 
+		p1.setNome("Breno"); 
 		p1.setAltura(1.8f);   
 		p1.setIdade(26);
 		
@@ -31,7 +31,7 @@ public class Main {
 		Funcionario f1 = new Funcionario(null, null, null, null, 0, false);
 		Funcionario f2 = new Funcionario(null, null, null, null, 0, false);
 		
-		JOptionPane.showMessageDialog(null, "São iguais:" + (f1==f2));
+		JOptionPane.showMessageDialog(null, "SÃ£o iguais:" + (f1==f2));
 		
 		Funcionario[] funcionarios = null;
 		Empresa e1 = new Empresa();
